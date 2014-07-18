@@ -1,0 +1,26 @@
+
+
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+
+  /* Make the masthead heading the same height as the navigation */
+}
+
+.jumbotron {
+  padding:20px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.search{
+  margin-left:10px;
+}
+
