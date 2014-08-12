@@ -10,6 +10,7 @@
  */
 angular
   .module('carProductApp', [
+    'firebase',
     'ngAnimate',
     'ngCookies',
     'ngResource',

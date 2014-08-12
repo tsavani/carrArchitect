@@ -8,6 +8,5 @@
  * Controller of the carProductApp
  */
 angular.module('carProductApp')
-  .controller('MainCtrl', function ($scope) {
-   
+  .controller('MainCtrl', function ($scope) { 
   });
