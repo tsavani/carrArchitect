@@ -18,7 +18,8 @@ angular.module('carProductApp')
 		//rows.$bindTo($scope, "rows");
 		//$scope.rows = ['i20','BMW X5','lumo'];
 		$scope.temp = false;
- 
+		$scope.goCats = false;
+   
 		$scope.addRow = function(){
 			$scope.rows.$add({car: $scope.addName});
 			$scope.temp = false;
@@ -27,7 +28,7 @@ angular.module('carProductApp')
 
 		$scope.deleteRow = function(row){
 			//$scope.rows.splice($scope.rows.indexOf(row),1);
-			$scope.rows.$remove($scope.rows.indexOf(row))
+			$scope.rows.$remove($scope.rows.indexOf(row));
 		};
 
 		$scope.carProcessPath = function(row){
@@ -49,4 +50,4 @@ angular.module('carProductApp')
 		$scope.isTemp = function(i){
 			return i==$scope.rows.length-1 && $scope.temp;
 		};
-		});
+});

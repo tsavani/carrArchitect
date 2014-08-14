@@ -24,3 +24,13 @@
   margin-left:10px;
 }
 
+ table { table-layout: fixed; }
+ table th, table td { overflow: hidden; }
+
+
+
+ .row-fluid{
+    line-height: 40px;
+    vertical-align: top;
+    border-top: 1px solid #DDD;
+ }
