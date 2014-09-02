@@ -21,7 +21,7 @@ angular.module('carProductApp')
 		$scope.goCats = false;
    
 		$scope.addRow = function(){
-			$scope.rows.$add({car: $scope.addName});
+			$scope.rows.$add({car: $scope.addName, tab: 1});
 			$scope.temp = false;
 			$scope.addName="";	
 		};
